@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+char *my_strcpy(char *t, char *s)
+{
+     char *p = t;
+
+     while (*t++ = *s++);
+
+   return p;
+}
+
+
 size_t my_strlen(const  *s)
 {
    const char *p = s;
